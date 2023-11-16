@@ -1,0 +1,754 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "creation": "2023-10-21 19:21:14.425793",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "done",
+  "column_break_oy46u",
+  "upload_file",
+  "section_break_s9qe9",
+  "file",
+  "family_code",
+  "social_worker",
+  "social_worker2",
+  "name_cus",
+  "national_num",
+  "phone_number",
+  "relationship_with_child",
+  "column_break_6eyek",
+  "n_family_book",
+  "father_name",
+  "nat_father",
+  "father_phone",
+  "mother_name",
+  "nat_mother",
+  "mother_phone",
+  "home_phone",
+  "section_break_4iywm",
+  "dis_ex",
+  "evid_dis",
+  "hedead_by_female",
+  "type_of_headed",
+  "ill_children",
+  "ill_evd",
+  "type_ill",
+  "displacement",
+  "column_break_lwepx",
+  "kidney_disease",
+  "liver_diseases",
+  "cancer",
+  "immunodeficiency",
+  "malabsorption",
+  "diabetes_ill",
+  "blood_pressure",
+  "heart_operations",
+  "heart_disease",
+  "epilepsy",
+  "thalassemia",
+  "section_break_8ibsq",
+  "count_ill_child",
+  "patient_full_name",
+  "chlid_males",
+  "chlid_females",
+  "sum_children",
+  "column_break_w4zry",
+  "adults_male",
+  "adults_female",
+  "count_family",
+  "total_family",
+  "section_break_oea2m",
+  "governorate",
+  "district_ar",
+  "subdistrict_ar",
+  "column_break_xebn4",
+  "community_ar",
+  "communities",
+  "alhi",
+  "district",
+  "notes",
+  "column_break_oh8jj",
+  "note_manager",
+  "\u0627\u0644\u062d\u0648\u0627\u0644\u0627\u062a_tab",
+  "money1",
+  "money_date1",
+  "id_money1",
+  "sup_money1",
+  "amount_money1",
+  "column_break_crfum",
+  "money2",
+  "money_date2",
+  "res_nonreceipt1",
+  "id_money2",
+  "res_nonreceipt2",
+  "sup_money2",
+  "amount_money2",
+  "column_break_5qtlq",
+  "money3",
+  "money_date3",
+  "id_money3",
+  "sup_money3",
+  "amount_money3",
+  "res_nonreceipt3",
+  "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a_tab",
+  "tab_visits",
+  "count_visits",
+  "\u0645\u0639\u0644\u0648\u0645\u0627\u062a_\u0627\u0644\u0623\u0637\u0641\u0627\u0644_tab",
+  "tab_child",
+  "\u0627\u0644\u0625\u062d\u0627\u0644\u0627\u062a_tab",
+  "needed_service",
+  "kobo_tab",
+  "location_latitude",
+  "location_longitude",
+  "submission_time",
+  "column_break_rojy9",
+  "uuid",
+  "start",
+  "end"
+ ],
+ "fields": [
+  {
+   "fieldname": "family_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0643\u0648\u062f \u0627\u0644\u0639\u0627\u0626\u0644\u0629",
+   "permlevel": 1,
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "social_worker",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0639\u0627\u0645\u0644 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a",
+   "options": "Social_worker",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "name_cus",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u0644\u0645 \u0627\u0644\u062b\u0644\u0627\u062b\u064a"
+  },
+  {
+   "fieldname": "national_num",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0648\u0637\u0646\u064a \u0644\u0644\u0645\u0633\u062a\u0644\u0645"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644",
+   "length": 10
+  },
+  {
+   "fieldname": "n_family_book",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u062f\u0641\u062a\u0631 \u0627\u0644\u0639\u0627\u0626\u0644\u0629"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0623\u0628 \u0627\u0644\u062b\u0644\u0627\u062b\u064a"
+  },
+  {
+   "fieldname": "nat_father",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0648\u0637\u0646\u064a \u0644\u0644\u0623\u0628"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0623\u0645 \u0627\u0644\u062b\u0644\u0627\u062b\u064a"
+  },
+  {
+   "fieldname": "nat_mother",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0648\u0637\u0646\u064a \u0644\u0644\u0623\u0645"
+  },
+  {
+   "fieldname": "dis_ex",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u0625\u0639\u0627\u0642\u0629 \u0639\u0646\u062f \u0627\u0644\u0623\u0637\u0641\u0627\u0644",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.dis_ex\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "evid_dis",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062b\u0628\u0648\u062a\u064a\u0627\u062a \u0644\u0644\u0625\u0639\u0627\u0642\u0629",
+   "options": "YesNo"
+  },
+  {
+   "fieldname": "hedead_by_female",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u0627\u0644\u0639\u0627\u0626\u0644\u0629 \u062a\u0639\u064a\u0644\u0647\u0627 \u0623\u0646\u062b\u0649",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.hedead_by_female\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "type_of_headed",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u062d\u0627\u0644\u064a \u0644\u0631\u0628 \u0627\u0644\u0623\u0633\u0631\u0629",
+   "options": "Divorced/ \u0645\u0637\u0644\u0642\u0629\nWidowed/ \u0623\u0631\u0645\u0644\u0629\nAbsent husband for more than 3 months/ \u0641\u0642\u062f\u0627\u0646 \u0627\u0644\u0632\u0648\u062c \u0644\u0645\u062f\u0629 \u062a\u0632\u064a\u062f \u0639\u0646 \u062b\u0644\u0627\u062b\u0629 \u0623\u0634\u0647\u0631\nOther/ \u0623\u062e\u0631\u0649"
+  },
+  {
+   "fieldname": "ill_children",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u0627\u0644\u0623\u0633\u0631\u0629 \u062a\u0636\u0645 \u0623\u0637\u0641\u0627\u0644 \u0628\u0623\u0645\u0631\u0627\u0636 \u0645\u0632\u0645\u0646\u0629",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.ill_children\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "type_ill",
+   "fieldtype": "Link",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0631\u0636 \u0627\u0644\u0645\u0632\u0645\u0646 \u0639\u0646\u062f \u0627\u0644\u0623\u0637\u0641\u0627\u0644",
+   "options": "illnesses"
+  },
+  {
+   "depends_on": "eval:doc.ill_children\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "ill_evd",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u064a\u0648\u062c\u062f \u062b\u0628\u0648\u062a\u064a\u0627\u062a \u0644\u0644\u0645\u0631\u0636 \u0627\u0644\u0645\u0632\u0645\u0646",
+   "options": "YesNo"
+  },
+  {
+   "fieldname": "displacement",
+   "fieldtype": "Autocomplete",
+   "label": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0646\u0632\u0648\u062d \u0644\u062f\u0649 \u0627\u0644\u0639\u0627\u0626\u0644\u0629",
+   "options": "Never displaced/\u0644\u0645 \u062a\u0646\u0632\u062d \u0623\u0628\u062f\u0627\nIDP/\u0646\u0627\u0632\u062d\u0629\nReturnee in a year or less/  \u0639\u0627\u0626\u062f\u0629 \u0645\u0646 \u0633\u0646\u0629 \u0623\u0648 \u0623\u0642\u0644\nReturnee ]1-3 years]/ ]1-3 years] \u0639\u0627\u0626\u062f\u0629\nReturnee from more than 3 years/  \u0639\u0627\u0626\u062f\u0629 \u0645\u0646\u0630 \u0623\u0643\u062b\u0631 \u0645\u0646 3 \u0633\u0646\u0648\u0627\u062a"
+  },
+  {
+   "fieldname": "chlid_males",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0630\u0643\u0648\u0631"
+  },
+  {
+   "fieldname": "chlid_females",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0625\u0646\u0627\u062b"
+  },
+  {
+   "fieldname": "sum_children",
+   "fieldtype": "Int",
+   "label": "\u0645\u062c\u0645\u0648\u0639 \u0627\u0644\u0623\u0637\u0641\u0627\u0644",
+   "read_only": 1
+  },
+  {
+   "fieldname": "adults_male",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0628\u0627\u0644\u063a\u064a\u0646 \u0630\u0643\u0648\u0631"
+  },
+  {
+   "fieldname": "adults_female",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0628\u0627\u0644\u063a\u064a\u0646 \u0625\u0646\u0627\u062b"
+  },
+  {
+   "fieldname": "total_family",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0641\u0631\u0627\u062f \u0627\u0644\u0639\u0627\u0626\u0644\u0629 \u0627\u0644\u0643\u0644\u064a",
+   "read_only": 1
+  },
+  {
+   "fieldname": "count_family",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0639\u0627\u0626\u0644\u0627\u062a \u0641\u064a \u0627\u0644\u0623\u0633\u0631\u0629"
+  },
+  {
+   "default": "Rural Damascus",
+   "fieldname": "governorate",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0629",
+   "options": "Aleppo\nAl-Hasakeh\nAr-Raqqa\nAs-Sweida\nDamascus\nDar'a\nDeir-ez-Zor\nHama\nHoms\nIdleb\nLattakia\nQuneitra\nRural Damascus\nTartous"
+  },
+  {
+   "fieldname": "district_ar",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0646\u0637\u0642\u0629",
+   "options": "District_ar"
+  },
+  {
+   "fieldname": "subdistrict_ar",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0646\u0627\u062d\u064a\u0629",
+   "options": "Subdistrict_AR"
+  },
+  {
+   "fieldname": "community_ar",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u062f\u064a\u0646\u0629/\u0627\u0644\u0642\u0631\u064a\u0629",
+   "options": "Community_Ar"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+  },
+  {
+   "fieldname": "money1",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u062a\u0644\u0642\u062a \u0627\u0644\u0623\u0633\u0631\u0629 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649\u061f",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "money2",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u062a\u0644\u0642\u062a \u0627\u0644\u0623\u0633\u0631\u0629 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629\u061f\u061f",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "money3",
+   "fieldtype": "Link",
+   "label": "\u0647\u0644 \u062a\u0644\u0642\u062a \u0627\u0644\u0623\u0633\u0631\u0629 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629\u061f",
+   "options": "YesNo"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "money_date1",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "money_date2",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 "
+  },
+  {
+   "depends_on": "eval:doc.money3\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "money_date3",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "id_money1",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "id_money2",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money3\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "id_money3",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "sup_money1",
+   "fieldtype": "Data",
+   "label": "\u0645\u0632\u0648\u062f \u0627\u0644\u062e\u062f\u0645\u0629 \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "sup_money2",
+   "fieldtype": "Data",
+   "label": "\u0645\u0632\u0648\u062f \u0627\u0644\u062e\u062f\u0645\u0629 \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money3\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "sup_money3",
+   "fieldtype": "Data",
+   "label": "\u0645\u0632\u0648\u062f \u0627\u0644\u062e\u062f\u0645\u0629 \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "amount_money1",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u0628\u0644\u063a \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "amount_money2",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u0628\u0644\u063a \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money3\r\n== \"Yes/ \u0646\u0639\u0645\" ;\r\n",
+   "fieldname": "amount_money3",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u0628\u0644\u063a \u0644\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "depends_on": "eval:doc.money1\r\n== \"No/ \u0644\u0627\" ;",
+   "fieldname": "res_nonreceipt1",
+   "fieldtype": "Link",
+   "label": "\u0633\u0628\u0628 \u0639\u062f\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649",
+   "options": "NonReceipt"
+  },
+  {
+   "depends_on": "eval:doc.money2\r\n== \"No/ \u0644\u0627\" ;",
+   "fieldname": "res_nonreceipt2",
+   "fieldtype": "Link",
+   "label": "\u0633\u0628\u0628 \u0639\u062f\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629",
+   "options": "NonReceipt"
+  },
+  {
+   "depends_on": "eval:doc.money3\r\n== \"No/ \u0644\u0627\" ;",
+   "fieldname": "res_nonreceipt3",
+   "fieldtype": "Link",
+   "label": "\u0633\u0628\u0628 \u0639\u062f\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629",
+   "options": "NonReceipt"
+  },
+  {
+   "fieldname": "tab_visits",
+   "fieldtype": "Table",
+   "label": "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a",
+   "options": "visits"
+  },
+  {
+   "fieldname": "count_visits",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0632\u064a\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0627\u0645\u0644 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a"
+  },
+  {
+   "fieldname": "tab_child",
+   "fieldtype": "Table",
+   "label": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0637\u0641\u0644",
+   "options": "child"
+  },
+  {
+   "fieldname": "needed_service",
+   "fieldtype": "Table",
+   "label": "\u0627\u0644\u0625\u062d\u0627\u0644\u0627\u062a",
+   "options": "needed service"
+  },
+  {
+   "fieldname": "column_break_6eyek",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4iywm",
+   "fieldtype": "Section Break",
+   "label": "\u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0648\u0631\u0628 \u0627\u0644\u0623\u0633\u0631\u0629"
+  },
+  {
+   "fieldname": "column_break_lwepx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8ibsq",
+   "fieldtype": "Section Break",
+   "label": "\u0623\u0641\u0631\u0627\u062f \u0627\u0644\u0639\u0627\u0626\u0644\u0629"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "section_break_oea2m",
+   "fieldtype": "Section Break",
+   "label": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0633\u0643\u0646"
+  },
+  {
+   "fieldname": "column_break_w4zry",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0627\u0644\u062d\u0648\u0627\u0644\u0627\u062a_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u062d\u0648\u0627\u0644\u0627\u062a"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u0632\u064a\u0627\u0631\u0627\u062a"
+  },
+  {
+   "fieldname": "column_break_crfum",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_5qtlq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xebn4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a_\u0627\u0644\u0623\u0637\u0641\u0627\u0644_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0623\u0637\u0641\u0627\u0644"
+  },
+  {
+   "fieldname": "\u0627\u0644\u0625\u062d\u0627\u0644\u0627\u062a_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u0625\u062d\u0627\u0644\u0627\u062a"
+  },
+  {
+   "fieldname": "column_break_oh8jj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "social_worker2",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0643\u0644\u0641",
+   "options": "Social_worker2",
+   "permlevel": 1
+  },
+  {
+   "description": "\u064a\u062c\u0628 \u0623\u0646 \u0644\u0627 \u064a\u062a\u062c\u0627\u0648\u0632 \u062d\u062c\u0645 \u0627\u0644\u0645\u0644\u0641 10 \u0645\u064a\u063a\u0627",
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "\u0627\u0631\u0641\u0642 \u0645\u0644\u0641 \u0627\u0644\u0623\u0633\u0631\u0629"
+  },
+  {
+   "fieldname": "count_ill_child",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0623\u0637\u0641\u0627\u0644 \u0627\u0644\u0645\u0635\u0627\u0628\u064a\u0646 \u0628\u0623\u0645\u0631\u0627\u0636 \u0645\u0632\u0645\u0646\u0629"
+  },
+  {
+   "fieldname": "alhi",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062d\u064a"
+  },
+  {
+   "fieldname": "note_manager",
+   "fieldtype": "Text",
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0627\u0644\u0645\u062f\u064a\u0631",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "kobo_tab",
+   "fieldtype": "Tab Break",
+   "label": "Kobo"
+  },
+  {
+   "fieldname": "location_latitude",
+   "fieldtype": "Data",
+   "label": "location latitude",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "location_longitude",
+   "fieldtype": "Data",
+   "label": "location longitude",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "submission_time",
+   "fieldtype": "Data",
+   "label": "submission time",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "uuid",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Data",
+   "label": "start",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Data",
+   "label": "end",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_rojy9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "father_phone",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644 \u0644\u0644\u0623\u0628"
+  },
+  {
+   "fieldname": "mother_phone",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644 \u0644\u0644\u0623\u0645"
+  },
+  {
+   "fieldname": "home_phone",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641 \u0627\u0644\u0623\u0631\u0636\u064a"
+  },
+  {
+   "fieldname": "relationship_with_child",
+   "fieldtype": "Autocomplete",
+   "label": "\u0635\u0644\u0629 \u0627\u0644\u0642\u0631\u0627\u0628\u0629 \u0645\u0639 \u0627\u0644\u0637\u0641\u0644",
+   "options": "Mother/\u0627\u0644\u0623\u0645\nFather/ \u0627\u0644\u0627\u0628\nOther / \u063a\u064a\u0631 \u0630\u0644\u0643\nSibling/ \u0634\u0642\u064a\u0642(\u0629)\nGrandfather/ \u0627\u0644\u062c\u062f\nGrandmother/\u0627\u0644\u062c\u062f\u0629\nAunt/ \u0639\u0645\u0629 \u0623\u0648 \u062e\u0627\u0644\u0629"
+  },
+  {
+   "fieldname": "patient_full_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0631\u064a\u0636 \u0627\u0644\u062b\u0644\u0627\u062b\u064a"
+  },
+  {
+   "fieldname": "communities",
+   "fieldtype": "Autocomplete",
+   "label": "communities",
+   "options": "helleh\nAl Qutayfah\nMadamiyet Elqalmun\nKafr Batna\nEin Terma\nhezzeh\nHammura\nsaqba\nBeit Sawa\nJisrein\nMahmadiyeh\nEftreis"
+  },
+  {
+   "default": "0",
+   "fieldname": "kidney_disease",
+   "fieldtype": "Check",
+   "label": "\u0623\u0645\u0631\u0627\u0636 \u0643\u0644\u0649"
+  },
+  {
+   "default": "0",
+   "fieldname": "liver_diseases",
+   "fieldtype": "Check",
+   "label": "\u0623\u0645\u0631\u0627\u0636 \u0627\u0644\u0643\u0628\u062f"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancer",
+   "fieldtype": "Check",
+   "label": "\u0633\u0631\u0637\u0627\u0646"
+  },
+  {
+   "default": "0",
+   "fieldname": "immunodeficiency",
+   "fieldtype": "Check",
+   "label": "\u0646\u0642\u0635 \u0645\u0646\u0627\u0639\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "malabsorption",
+   "fieldtype": "Check",
+   "label": "\u0633\u0648\u0621 \u0627\u0645\u062a\u0635\u0627\u0635"
+  },
+  {
+   "default": "0",
+   "fieldname": "blood_pressure",
+   "fieldtype": "Check",
+   "label": "\u0636\u063a\u0637 \u0627\u0644\u062f\u0645"
+  },
+  {
+   "default": "0",
+   "fieldname": "heart_operations",
+   "fieldtype": "Check",
+   "label": "\u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0642\u0644\u0628"
+  },
+  {
+   "default": "0",
+   "fieldname": "heart_disease",
+   "fieldtype": "Check",
+   "label": "\u0623\u0645\u0631\u0627\u0636 \u0627\u0644\u0642\u0644\u0628"
+  },
+  {
+   "default": "0",
+   "fieldname": "epilepsy",
+   "fieldtype": "Check",
+   "label": "\u0645\u0631\u0636 \u0627\u0644\u0635\u0631\u0639"
+  },
+  {
+   "default": "0",
+   "fieldname": "thalassemia",
+   "fieldtype": "Check",
+   "label": "\u0627\u0644\u062a\u0644\u0627\u0633\u064a\u0645\u064a\u0627"
+  },
+  {
+   "default": "0",
+   "fieldname": "diabetes_ill",
+   "fieldtype": "Check",
+   "label": "\u0645\u0631\u0636 \u0627\u0644\u0633\u0643\u0631\u064a"
+  },
+  {
+   "default": "0",
+   "fieldname": "done",
+   "fieldtype": "Check",
+   "label": "\u062a\u0645 \u0627\u0644\u062a\u062f\u0642\u064a\u0642"
+  },
+  {
+   "fieldname": "section_break_s9qe9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_oy46u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "upload_file",
+   "fieldtype": "Check",
+   "label": "\u062a\u0645 \u0631\u0641\u0639 \u0627\u0644\u0645\u0644\u0641"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-30 16:59:00.488787",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "basic_needs",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "\u0639\u0627\u0645\u0644 \u0627\u062c\u062a\u0645\u0627\u0639\u064a",
+   "write": 1
+  },
+  {
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "\u0645\u062f\u0631\u0627\u0621",
+   "write": 1
+  },
+  {
+   "permlevel": 1,
+   "read": 1,
+   "role": "\u0639\u0627\u0645\u0644 \u0627\u062c\u062a\u0645\u0627\u0639\u064a"
+  },
+  {
+   "permlevel": 1,
+   "read": 1,
+   "role": "\u0645\u062f\u0631\u0627\u0621",
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "\u0645\u062f\u064a\u0631 \u062d\u0627\u0644\u0629",
+   "write": 1
+  },
+  {
+   "permlevel": 1,
+   "read": 1,
+   "role": "\u0645\u062f\u064a\u0631 \u062d\u0627\u0644\u0629"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name_cus",
+ "track_changes": 1
+}

@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-10-23 13:55:07.630165",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"basic_needs\"],[\"family_code\",\"basic_needs\"],[\"chide_code\",\"child\"],[\"child_name\",\"child\"],[\"id_child\",\"child\"],[\"gender\",\"child\"],[\"relationship\",\"child\"],[\"child_birth\",\"child\"],[\"child_edu\",\"child\"],[\"child_class\",\"child\"],[\"disability\",\"child\"],[\"has_id\",\"child\"],[\"type_serv\",\"needed service\"],[\"referal\",\"needed service\"],[\"reson\",\"needed service\"],[\"ref_date\",\"needed service\"],[\"more_ref\",\"needed service\"],[\"notes\",\"needed service\"],[\"protection\",\"needed service\"],[\"food\",\"needed service\"],[\"nutrition\",\"needed service\"],[\"livlihood\",\"needed service\"],[\"helper\",\"needed service\"],[\"aid\",\"needed service\"],[\"deucation\",\"needed service\"],[\"health\",\"needed service\"],[\"clean\",\"needed service\"]],\"order_by\":\"`tabbasic_needs`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"name\":120,\"family_code\":120,\"child:chide_code\":120,\"child:child_name\":120,\"child:id_child\":120,\"child:gender\":120,\"child:relationship\":120,\"child:child_birth\":120,\"child:child_edu\":120,\"child:child_class\":120,\"child:disability\":120,\"child:has_id\":120,\"needed service:type_serv\":120,\"needed service:referal\":120,\"needed service:reson\":120,\"needed service:ref_date\":120,\"needed service:more_ref\":120,\"needed service:notes\":120,\"needed service:protection\":120,\"needed service:food\":120,\"needed service:nutrition\":120,\"needed service:livlihood\":120,\"needed service:helper\":120,\"needed service:aid\":120,\"needed service:deucation\":120,\"needed service:health\":120,\"needed service:clean\":120},\"group_by\":null}",
+ "modified": "2023-10-23 13:55:38.911924",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "ctbn2",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "basic_needs",
+ "report_name": "ctbn2",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "\u0639\u0627\u0645\u0644 \u0627\u062c\u062a\u0645\u0627\u0639\u064a"
+  },
+  {
+   "role": "\u0645\u062f\u0631\u0627\u0621"
+  },
+  {
+   "role": "\u0645\u062f\u064a\u0631 \u062d\u0627\u0644\u0629"
+  }
+ ]
+}

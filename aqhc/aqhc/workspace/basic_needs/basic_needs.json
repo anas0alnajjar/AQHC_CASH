@@ -1,0 +1,81 @@
+{
+ "charts": [
+  {
+   "chart_name": "modifed basic needs",
+   "label": "\u0639\u0645\u0644 \u0627\u0644\u0641\u0631\u064a\u0642"
+  }
+ ],
+ "content": "[{\"id\":\"-QTxmdbtlG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Basic Needs</span>\",\"col\":12}},{\"id\":\"LVYp4ZvEe-\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0627\u0644\u0639\u0627\u0645\u0644\u064a\u0646 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u064a\u0646\",\"col\":4}},{\"id\":\"s-C8J3QpdE\",\"type\":\"card\",\"data\":{\"card_name\":\"Help Tolls\",\"col\":4}},{\"id\":\"LcWd9IDBhi\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0639\u0645\u0644 \u0627\u0644\u0641\u0631\u064a\u0642\",\"col\":12}}]",
+ "creation": "2023-10-20 21:30:50.685533",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Basic Needs",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u0639\u0627\u0645\u0644\u064a\u0646 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u064a\u0646",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u062d\u0627\u0644\u0627\u062a\u064a",
+   "link_count": 0,
+   "link_to": "basic_needs",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Help Tolls",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0645\u062f\u064a\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062a",
+   "link_count": 0,
+   "link_to": "File",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-11 15:11:18.833148",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "Basic Needs",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "\u0645\u062f\u0631\u0627\u0621"
+  },
+  {
+   "role": "\u0639\u0627\u0645\u0644 \u0627\u062c\u062a\u0645\u0627\u0639\u064a"
+  },
+  {
+   "role": "BOD"
+  },
+  {
+   "role": "PM"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Basic Needs"
+}

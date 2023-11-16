@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-11 06:59:52.068626",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "code_pro1",
+  "date_v",
+  "type_v",
+  "place_v",
+  "column_break_vhk3f",
+  "who_v",
+  "v_relation",
+  "note_v"
+ ],
+ "fields": [
+  {
+   "fieldname": "code_pro1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_v",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0639\u062a\u062f\u0627\u0621"
+  },
+  {
+   "fieldname": "type_v",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u0646\u0648\u0639\u0647",
+   "options": "\u0625\u0647\u0645\u0627\u0644\n\u062a\u0633\u0631\u0628\n\u0639\u0645\u0627\u0644\u0629\n\u063a\u064a\u0631 \u0645\u0633\u062c\u0644\n\u0623\u0637\u0641\u0627\u0644 \u0634\u0648\u0627\u0631\u0639\n\u062a\u062c\u0627\u0631\u0629 \u0628\u0627\u0644\u0623\u0637\u0641\u0627\u0644\n\u0641\u0642\u0631\n\u0639\u0646\u0641/\u0633\u0648\u0621 \u0645\u0639\u0627\u0645\u0644\u0629 \u062c\u0633\u062f\u064a\u0629\n\u0639\u0646\u0641/\u0633\u0648\u0621 \u0645\u0639\u0627\u0645\u0644\u0629 \u0646\u0641\u0633\u064a\u0629\n\u0627\u063a\u062a\u0635\u0627\u0628\n\u062d\u0645\u0644 \u0627\u0644\u0637\u0641\u0644 \u0646\u062a\u064a\u062c\u0629 \u0627\u0644\u0627\u0639\u062a\u062f\u0627\u0621\n\u0639\u0646\u0641/\u0633\u0648\u0621 \u0645\u0639\u0627\u0645\u0644\u0629 \u062c\u0646\u0633\u064a\u0629\n\u0637\u0641\u0644 \u0646\u0627\u062c \u0645\u0646 \u0627\u0644\u0630\u062e\u0627\u0626\u0631 \u0627\u0644\u0645\u062a\u0641\u062c\u0631\u0629\n\u0632\u0648\u0627\u062c \u0623\u0637\u0641\u0627\u0644\n\u062a\u0646\u0645\u0631"
+  },
+  {
+   "fieldname": "place_v",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0627\u0639\u062a\u062f\u0627\u0621",
+   "options": "\u0627\u0644\u0645\u0646\u0632\u0644\n\u0627\u0644\u0645\u062f\u0631\u0633\u0629\n\u0627\u0644\u0645\u062c\u062a\u0645\u0639 \u0627\u0644\u0645\u062d\u0644\u064a\n\u063a\u064a\u0631 \u0630\u0644\u0643"
+  },
+  {
+   "fieldname": "column_break_vhk3f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "who_v",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u0645\u0639\u062a\u062f\u064a",
+   "options": "\u0623\u0628\n\u0623\u0645\n\u0623\u062e\n\u0623\u062e\u062a\n\u062c\u062f\n\u062c\u062f\u0629\n\u0639\u0645\u0629/\u062e\u0627\u0644\u0629\n\u0639\u0645/\u062e\u0627\u0644\n\u0632\u0645\u064a\u0644/\u0632\u0645\u064a\u0644\u0629 \u0641\u064a \u0627\u0644\u0645\u062f\u0631\u0633\u0629\n\u0645\u0639\u0644\u0645/\u0645\u0639\u0644\u0645\u0629\n\u063a\u064a\u0631 \u0645\u0639\u0631\u0648\u0641\n\u063a\u064a\u0631 \u0630\u0644\u0643"
+  },
+  {
+   "fieldname": "v_relation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "\u0627\u0644\u0645\u0639\u062a\u062f\u064a \u0645\u0642\u062f\u0645 \u0627\u0644\u0631\u0639\u0627\u064a\u0629",
+   "options": "YesNo"
+  },
+  {
+   "fieldname": "note_v",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-11 06:59:52.068626",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "protection1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

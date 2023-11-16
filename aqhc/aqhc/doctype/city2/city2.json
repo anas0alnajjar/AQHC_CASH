@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-25 21:17:52.233003",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "city2",
+  "number"
+ ],
+ "fields": [
+  {
+   "fieldname": "city2",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "no_copy": 1,
+   "options": "Adra, Rural Damascus\\\u0639\u062f\u0631\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nNajha, Rural Damascus\\\u0646\u062c\u0647\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nGhizlaniyyeh, Rural Damascus\\\u0627\u0644\u063a\u0632\u0644\u0627\u0646\u064a\u0629, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nJaramana, Rural Damascus\\\u062c\u0631\u0645\u0627\u0646\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nHseniyeh, Rural Damascus\\\u0627\u0644\u062d\u0633\u064a\u0646\u064a\u0629, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nHammura, Rural Damascus\\\u062d\u0645\u0648\u0631\u0629, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nBuwayda, Rural Damascus\\\u0627\u0644\u0628\u0648\u064a\u0636\u0629, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nAn Nabk, Rural Damascus\\\u0627\u0644\u0646\u0628\u0643, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nRas Elmaarra, Rural Damascus\\\u0631\u0623\u0633 \u0627\u0644\u0645\u0639\u0631\u0629, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nJdidet Artuz, Rural Damascus\\\u062c\u062f\u064a\u062f\u0629 \u0639\u0631\u0637\u0648\u0632, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nBada, Rural Damascus\\\u0628\u062f\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nQatana, Rural Damascus\\\u0642\u0637\u0646\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642\nBeit Sawa, Rural Damascus\\\u0628\u064a\u062a \u0633\u0648\u0627, \u0631\u064a\u0641 \u062f\u0645\u0634\u0642"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-09 11:07:31.021665",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "city2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

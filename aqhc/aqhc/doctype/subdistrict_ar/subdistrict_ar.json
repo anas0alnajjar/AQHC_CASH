@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:subdistrict_ar",
+ "creation": "2023-10-21 21:58:17.727356",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subdistrict_ar"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "subdistrict_ar",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0646\u0627\u062d\u064a\u0629",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-25 17:29:10.569746",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "Subdistrict_AR",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "\u0645\u062f\u0631\u0627\u0621",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "\u0639\u0627\u0645\u0644 \u0627\u062c\u062a\u0645\u0627\u0639\u064a"
+  },
+  {
+   "read": 1,
+   "role": "\u0645\u062f\u064a\u0631 \u062d\u0627\u0644\u0629"
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

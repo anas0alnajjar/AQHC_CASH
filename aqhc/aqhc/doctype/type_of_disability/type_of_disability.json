@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-11-10 19:44:33.636207",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type_of_disability"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_of_disability",
+   "fieldtype": "Data",
+   "label": "\u0646\u0648\u0639 \u0627\u0644\u0625\u0639\u0627\u0642\u0629"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-10 19:44:33.636207",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "Type_of_Disability",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "type_of_disability"
+}

@@ -1,0 +1,426 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-11-12 18:55:20.730847",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "details",
+  "casemanager",
+  "supervisor",
+  "ccity",
+  "census",
+  "n_families",
+  "far_from_damascus",
+  "starting_center",
+  "column_break_nhvxm",
+  "main_servises",
+  "municipality",
+  "selector",
+  "associations",
+  "neighborhood_committees",
+  "health_serveses",
+  "hopital",
+  "clinic",
+  "mobile_clinics",
+  "specialized_doctors",
+  "physical_therapy",
+  "pronunciation_evaluation",
+  "column_break_a8o5h",
+  "deucation",
+  "kindergartens",
+  "primary_schools",
+  "preparatory_schools",
+  "secondary_schools",
+  "rehabilitation_institutes",
+  "private_institutes",
+  "section_break_s31tq",
+  "about_socail",
+  "notes",
+  "keys",
+  "mayor",
+  "phone_mayor",
+  "choesen",
+  "phone_choesen",
+  "column_break_kdgwt",
+  "tb_keys",
+  "education",
+  "n_school_male1",
+  "n_school_female1",
+  "n_school",
+  "column_break_kx8qx",
+  "n_school_male2",
+  "n_school_female2",
+  "n_school2",
+  "column_break_nddad",
+  "n_school_male3",
+  "n_school_female3",
+  "n_school3",
+  "column_break_nfthi",
+  "n_kindergartens",
+  "n_specialized_institutes",
+  "section_break_0ynt2",
+  "tb_school"
+ ],
+ "fields": [
+  {
+   "fieldname": "details",
+   "fieldtype": "Tab Break",
+   "label": "\u0639\u0627\u0645\u0629"
+  },
+  {
+   "fieldname": "casemanager",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u0645\u062f\u064a\u0631 \u0627\u0644\u062d\u0627\u0644\u0629",
+   "options": "casemanager",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "supervisor",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0634\u0631\u0641",
+   "options": "supervisor",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "ccity",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u0628\u0644\u062f/\u0627\u0644\u0645\u062f\u064a\u0646\u0629",
+   "options": "The_cities",
+   "reqd": 1
+  },
+  {
+   "fieldname": "census",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u062a\u0639\u062f\u0627\u062f \u0627\u0644\u0633\u0643\u0627\u0646\u064a"
+  },
+  {
+   "fieldname": "n_families",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0623\u0633\u0631"
+  },
+  {
+   "fieldname": "far_from_damascus",
+   "fieldtype": "Int",
+   "label": "\u0627\u0644\u0628\u0639\u062f \u0639\u0646 \u062f\u0645\u0634\u0642/\u0643\u0644\u0645"
+  },
+  {
+   "fieldname": "starting_center",
+   "fieldtype": "Data",
+   "label": "\u0645\u0631\u0643\u0632 \u0627\u0644\u0627\u0646\u0637\u0644\u0627\u0642"
+  },
+  {
+   "fieldname": "column_break_nhvxm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_servises",
+   "fieldtype": "Heading",
+   "label": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "municipality",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0628\u0644\u062f\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "selector",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0645\u062e\u062a\u0627\u0631"
+  },
+  {
+   "default": "0",
+   "fieldname": "associations",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u062c\u0645\u0639\u064a\u0627\u062a"
+  },
+  {
+   "default": "0",
+   "fieldname": "neighborhood_committees",
+   "fieldtype": "Check",
+   "label": "\u0644\u062c\u0627\u0646 \u0627\u0644\u0623\u062d\u064a\u0627\u0621"
+  },
+  {
+   "fieldname": "health_serveses",
+   "fieldtype": "Heading",
+   "in_preview": 1,
+   "label": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0635\u062d\u064a\u0629",
+   "options": "\u0645\u0634\u0641\u0649",
+   "width": "20"
+  },
+  {
+   "default": "0",
+   "fieldname": "hopital",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0645\u0634\u0641\u0649"
+  },
+  {
+   "default": "0",
+   "fieldname": "clinic",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0645\u0633\u062a\u0648\u0635\u0641"
+  },
+  {
+   "default": "0",
+   "fieldname": "mobile_clinics",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0639\u064a\u0627\u062f\u0627\u062a \u0645\u062a\u0646\u0642\u0644\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "specialized_doctors",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0623\u0637\u0628\u0627\u0621 \u0645\u062a\u062e\u0635\u0635\u064a\u0646"
+  },
+  {
+   "default": "0",
+   "fieldname": "physical_therapy",
+   "fieldtype": "Check",
+   "in_preview": 1,
+   "label": "\u0645\u0639\u0627\u0644\u062c\u0629 \u0641\u064a\u0632\u064a\u0627\u0626\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "pronunciation_evaluation",
+   "fieldtype": "Check",
+   "label": "\u062a\u0642\u0648\u064a\u0645 \u0646\u0637\u0642"
+  },
+  {
+   "fieldname": "column_break_a8o5h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deucation",
+   "fieldtype": "Heading",
+   "label": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u062a\u0639\u0644\u064a\u0645\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "kindergartens",
+   "fieldtype": "Check",
+   "label": "\u0631\u0648\u0636\u0627\u062a \u0623\u0637\u0641\u0627\u0644"
+  },
+  {
+   "default": "0",
+   "fieldname": "primary_schools",
+   "fieldtype": "Check",
+   "label": "\u0645\u062f\u0627\u0631\u0633 \u0627\u0628\u062a\u062f\u0627\u0626\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "preparatory_schools",
+   "fieldtype": "Check",
+   "label": "\u0645\u062f\u0627\u0631\u0633 \u0627\u0639\u062f\u0627\u062f\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "secondary_schools",
+   "fieldtype": "Check",
+   "label": "\u0645\u062f\u0627\u0631\u0633 \u062b\u0627\u0646\u0648\u064a\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "rehabilitation_institutes",
+   "fieldtype": "Check",
+   "label": "\u0645\u0639\u0627\u0647\u062f \u062a\u0623\u0647\u064a\u0644 \u0645\u062a\u062e\u0635\u0635\u0629"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_institutes",
+   "fieldtype": "Check",
+   "label": "\u0645\u0639\u0627\u0647\u062f \u062e\u0627\u0635\u0629"
+  },
+  {
+   "fieldname": "section_break_s31tq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "about_socail",
+   "fieldtype": "Small Text",
+   "label": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a \u0648\u0627\u0644\u0627\u0642\u062a\u0635\u0627\u062f\u064a"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+  },
+  {
+   "fieldname": "keys",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u0627\u0634\u062e\u0627\u0635 \u0627\u0644\u0645\u0641\u062a\u0627\u062d\u064a\u064a\u0646"
+  },
+  {
+   "fieldname": "mayor",
+   "fieldtype": "Data",
+   "label": "\u0631\u0626\u064a\u0633 \u0627\u0644\u0628\u0644\u062f\u064a\u0629"
+  },
+  {
+   "fieldname": "phone_mayor",
+   "fieldtype": "Data",
+   "label": "\u062c\u0648\u0627\u0644 \u0631\u0626\u064a\u0633 \u0627\u0644\u0628\u0644\u062f\u064a\u0629"
+  },
+  {
+   "fieldname": "choesen",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u062e\u062a\u0627\u0631"
+  },
+  {
+   "fieldname": "phone_choesen",
+   "fieldtype": "Data",
+   "label": "\u062c\u0648\u0627\u0644 \u0627\u0644\u0645\u062e\u062a\u0627\u0631"
+  },
+  {
+   "fieldname": "column_break_kdgwt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tb_keys",
+   "fieldtype": "Table",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": " ",
+   "options": "keys1"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u062a\u0639\u0644\u064a\u0645"
+  },
+  {
+   "fieldname": "n_school_male1",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0628\u062a\u062f\u0627\u0626\u064a\u0629 \u0630\u0643\u0648\u0631"
+  },
+  {
+   "fieldname": "n_school_female1",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0628\u062a\u062f\u0627\u0626\u064a\u0629 \u0627\u0646\u0627\u062b"
+  },
+  {
+   "fieldname": "n_school",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0628\u062a\u062f\u0627\u0626\u064a\u0629 \u0645\u062e\u062a\u0644\u0637\u0629"
+  },
+  {
+   "fieldname": "column_break_kx8qx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "n_school_male2",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0639\u062f\u0627\u062f\u064a\u0629 \u0630\u0643\u0648\u0631"
+  },
+  {
+   "fieldname": "n_school_female2",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0639\u062f\u0627\u062f\u064a\u0629 \u0627\u0646\u0627\u062b"
+  },
+  {
+   "fieldname": "n_school2",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u0627\u0639\u062f\u0627\u062f\u064a\u0629 \u0645\u062e\u062a\u0644\u0637\u0629"
+  },
+  {
+   "fieldname": "column_break_nddad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "n_school_male3",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u062b\u0627\u0646\u0648\u064a\u0629 \u0630\u0643\u0648\u0631"
+  },
+  {
+   "fieldname": "n_school_female3",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u062b\u0627\u0646\u0648\u064a\u0629 \u0627\u0646\u0627\u062b"
+  },
+  {
+   "fieldname": "n_school3",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u062f\u0627\u0631\u0633 \u0627\u0644\u062b\u0627\u0646\u0648\u064a\u0629 \u0645\u062e\u062a\u0644\u0637\u0629"
+  },
+  {
+   "fieldname": "column_break_nfthi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "n_kindergartens",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0631\u0648\u0636\u0627\u062a"
+  },
+  {
+   "fieldname": "n_specialized_institutes",
+   "fieldtype": "Int",
+   "label": "\u0639\u062f\u062f \u0627\u0644\u0645\u0639\u0627\u0647\u062f \u0627\u0644\u0645\u062a\u062e\u0635\u0635\u0629"
+  },
+  {
+   "fieldname": "section_break_0ynt2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tb_school",
+   "fieldtype": "Table",
+   "options": "school1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-12 21:38:02.380215",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "KEY PEOPLE1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "mayor",
+ "track_changes": 1
+}

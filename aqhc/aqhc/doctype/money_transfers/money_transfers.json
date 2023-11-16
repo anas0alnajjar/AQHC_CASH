@@ -1,0 +1,259 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-11-11 17:15:49.687399",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "identifier_number",
+  "idforlink",
+  "casemanager",
+  "column_break_htkjx",
+  "supervisor",
+  "section_break_ukn4l",
+  "payment1",
+  "payment2",
+  "payment3",
+  "payment4",
+  "column_break_vxoih",
+  "payment5",
+  "payment6",
+  "payment7",
+  "payment8",
+  "section_break_cnyli",
+  "payment_date1",
+  "payment_date2",
+  "payment_date3",
+  "payment_date4",
+  "column_break_lk20b",
+  "payment_date5",
+  "payment_date6",
+  "payment_date7",
+  "payment_date8",
+  "section_break_pp6cd",
+  "how_much1",
+  "how_much2",
+  "how_much3",
+  "how_much4",
+  "column_break_zjk2y",
+  "how_much5",
+  "how_much6",
+  "how_much7",
+  "how_much8"
+ ],
+ "fields": [
+  {
+   "fieldname": "identifier_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+  },
+  {
+   "fieldname": "section_break_ukn4l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment1",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment2",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment3",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment4",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0631\u0627\u0628\u0639\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "column_break_vxoih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment5",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062e\u0627\u0645\u0633\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment6",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0633\u0627\u062f\u0633\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment7",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0633\u0627\u0628\u0639\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "payment8",
+   "fieldtype": "Autocomplete",
+   "label": "\u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0645\u0646\u0629",
+   "options": "received the payment/ \u062a\u0644\u0642\u0649 \u0627\u0644\u062f\u0641\u0639\u0629"
+  },
+  {
+   "fieldname": "section_break_cnyli",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_date1",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "fieldname": "payment_date2",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629"
+  },
+  {
+   "fieldname": "payment_date3",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "fieldname": "payment_date4",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0631\u0627\u0628\u0639\u0629"
+  },
+  {
+   "fieldname": "column_break_lk20b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_date5",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062e\u0627\u0645\u0633\u0629"
+  },
+  {
+   "fieldname": "payment_date6",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0633\u0627\u062f\u0633\u0629"
+  },
+  {
+   "fieldname": "payment_date7",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u0633\u0627\u0628\u0639\u0629"
+  },
+  {
+   "fieldname": "payment_date8",
+   "fieldtype": "Date",
+   "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062f\u0641\u0639\u0629 \u0627\u0644\u062b\u0627\u0645\u0646\u0629"
+  },
+  {
+   "fieldname": "section_break_pp6cd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "how_much1",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u0623\u0648\u0644\u0649"
+  },
+  {
+   "fieldname": "how_much2",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629"
+  },
+  {
+   "fieldname": "how_much3",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629"
+  },
+  {
+   "fieldname": "how_much4",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u0631\u0627\u0628\u0639\u0629"
+  },
+  {
+   "fieldname": "column_break_zjk2y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "how_much5",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u062e\u0627\u0645\u0633\u0629"
+  },
+  {
+   "fieldname": "how_much6",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u0633\u0627\u062f\u0633\u0629"
+  },
+  {
+   "fieldname": "how_much7",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u0633\u0627\u0628\u0639\u0629"
+  },
+  {
+   "fieldname": "how_much8",
+   "fieldtype": "Currency",
+   "label": "\u0642\u064a\u0645\u0629 \u0627\u0644\u062d\u0648\u0627\u0644\u0629 \u0627\u0644\u062b\u0627\u0645\u0646\u0629"
+  },
+  {
+   "fieldname": "idforlink",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "IdForLink",
+   "read_only": 1
+  },
+  {
+   "fieldname": "casemanager",
+   "fieldtype": "Link",
+   "label": "\u0645\u062f\u064a\u0631 \u0627\u0644\u062d\u0627\u0644\u0629",
+   "options": "casemanager"
+  },
+  {
+   "fieldname": "column_break_htkjx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervisor",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0634\u0631\u0641",
+   "options": "supervisor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-11 17:51:08.188693",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "Money_transfers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "\u0645\u062f\u064a\u0631 \u062d\u0627\u0644\u0629"
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "identifier_number"
+}
