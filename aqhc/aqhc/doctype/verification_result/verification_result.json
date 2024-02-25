@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:verification_result",
  "creation": "2023-11-10 19:27:18.319395",
  "default_view": "List",
  "doctype": "DocType",
@@ -14,15 +15,17 @@
   {
    "fieldname": "verification_result",
    "fieldtype": "Data",
-   "label": "\u0646\u062a\u064a\u062c\u0629 \u0627\u0644\u062a\u062d\u0642\u0642"
+   "label": "\u0646\u062a\u064a\u062c\u0629 \u0627\u0644\u062a\u062d\u0642\u0642",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-10 19:27:18.319395",
+ "modified": "2024-02-24 15:00:52.711287",
  "modified_by": "Administrator",
  "module": "aqhc",
  "name": "Verification_result",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "childcode",
   "type_serv",
   "protection",
   "aid",
@@ -132,12 +133,18 @@
   {
    "fieldname": "column_break_frxom",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "childcode",
+   "fieldtype": "Data",
+   "label": "ChildCode",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-22 00:28:57.120357",
+ "modified": "2024-02-25 06:34:01.170176",
  "modified_by": "Administrator",
  "module": "aqhc",
  "name": "needed service",

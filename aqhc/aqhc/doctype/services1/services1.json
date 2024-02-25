@@ -14,6 +14,7 @@
   "column_break_bqash",
   "service_provider",
   "service_type",
+  "choises",
   "upadat_date",
   "section_break_08eln",
   "city22",
@@ -250,11 +251,18 @@
    "label": "\u0627\u0644\u0645\u0634\u0631\u0641",
    "options": "supervisor",
    "permlevel": 1
+  },
+  {
+   "fieldname": "choises",
+   "fieldtype": "Table MultiSelect",
+   "in_standard_filter": 1,
+   "label": "\u0627\u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0645\u0642\u062f\u0645\u0629",
+   "options": "Choises"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-12 21:46:14.891745",
+ "modified": "2024-02-25 09:08:09.894049",
  "modified_by": "Administrator",
  "module": "aqhc",
  "name": "Services1",

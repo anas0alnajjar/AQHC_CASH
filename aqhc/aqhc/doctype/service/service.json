@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-25 07:10:51.802503",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "service_charity"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_charity",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "service_charity",
+   "options": "Association services"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-25 08:26:08.141755",
+ "modified_by": "Administrator",
+ "module": "aqhc",
+ "name": "service",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
