@@ -3,7 +3,6 @@
  "allow_copy": 1,
  "allow_events_in_timeline": 1,
  "allow_import": 1,
- "autoname": "autoincrement",
  "color": "blue",
  "creation": "2023-11-10 22:59:01.818469",
  "default_view": "List",
@@ -64,15 +63,20 @@
   "column_break_letij",
   "column_break_dzkx",
   "recipientname1",
+  "gender_r",
   "relativerelation",
+  "birth_r1",
   "idrn1",
   "phonern1",
+  "caregiver",
   "column_break_uwziz",
   "recipientname2",
   "relation",
+  "relation_r",
+  "mention_it",
+  "birth_r2",
   "idrn2",
   "phonern2",
-  "caregiver",
   "section_break_etnzz",
   "tb_city2",
   "address",
@@ -1087,16 +1091,44 @@
    "in_standard_filter": 1,
    "label": "UnicefCode",
    "permlevel": 1
+  },
+  {
+   "fieldname": "gender_r",
+   "fieldtype": "Select",
+   "label": "\u062c\u0646\u0633 \u0627\u0644\u0645\u0633\u062a\u0644\u0645 \u0627\u0644\u0623\u0648\u0644",
+   "options": "Male/ \u0630\u0643\u0631\nFemale/ \u0623\u0646\u062b\u0649"
+  },
+  {
+   "fieldname": "birth_r1",
+   "fieldtype": "Date",
+   "label": "\u0645\u0648\u0627\u0644\u064a\u062f \u0627\u0644\u0645\u0633\u062a\u0644\u0645 \u0627\u0644\u0623\u0648\u0644"
+  },
+  {
+   "fieldname": "relation_r",
+   "fieldtype": "Autocomplete",
+   "label": "\u0635\u0644\u0629 \u0642\u0631\u0627\u0628\u0629 \u0627\u0644\u0645\u0633\u062a\u0644\u0645 \u0627\u0644\u062b\u0627\u0646\u064a \u0628\u0627\u0644\u0623\u0648\u0644",
+   "options": "Father/ \u0627\u0644\u0627\u0628\nHusband/\u0627\u0644\u0632\u0648\u062c\nWife/\u0627\u0644\u0632\u0648\u062c\u0629\nMother/\u0627\u0644\u0623\u0645\nStepmother/\u0627\u0644\u0623\u0645 \u0627\u0644\u0632\u0648\u062c\u0629 \u0627\u0644\u062b\u0627\u0646\u064a\u0629\nStepbrother/\u0627\u0644\u0623\u062e \u0645\u0646 \u063a\u064a\u0631 \u0623\u0645\nStepsister/\u0627\u0644\u0623\u062e\u062a \u0645\u0646 \u063a\u064a\u0631 \u0623\u0645\nAunt/ \u0639\u0645\u0629 \u0623\u0648 \u062e\u0627\u0644\u0629\nSibling/ \u0634\u0642\u064a\u0642(\u0629)\nUncle/ \u0639\u0645 \u0627\u0648 \u062e\u0627\u0644\u064d\nothers/\u0622\u062e\u0631",
+   "read_only_depends_on": "eval:doc.\ncheaked_by_supervisor\n== 1;"
+  },
+  {
+   "depends_on": "eval:doc.\nrelation_r\n== \"others/\u0622\u062e\u0631\" ;",
+   "fieldname": "mention_it",
+   "fieldtype": "Data",
+   "label": "\u0645\u0627 \u0647\u064a\u061f"
+  },
+  {
+   "fieldname": "birth_r2",
+   "fieldtype": "Date",
+   "label": "\u0645\u0648\u0627\u0644\u064a\u062f \u0627\u0644\u0645\u0633\u062a\u0644\u0645 \u0627\u0644\u062b\u0627\u0646\u064a"
   }
  ],
  "image_field": "child_picture",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-25 12:30:38.921815",
+ "modified": "2024-02-26 13:20:43.801360",
  "modified_by": "Administrator",
  "module": "aqhc",
  "name": "CASES1",
- "naming_rule": "Autoincrement",
  "nsm_parent_field": "parent_me",
  "owner": "Administrator",
  "permissions": [
